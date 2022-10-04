@@ -1,0 +1,105 @@
+.balance-slot {
+  &__coins {
+    font-size: 18px;
+    color: #2F385E;
+    margin: 0 !important;
+  }
+
+  &__usd {
+    font-size: 13px;
+    color: #2F385E;
+    opacity: 0.4;
+    margin: 0 !important;
+  }
+
+  &__percent {
+    font-size: 18px;
+    color: #2F385E;
+    margin: 0 !important;
+  }
+}
+
+
+
+.asset-slot {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 12px 0;
+
+  &__img {
+    margin-right: 12px;
+    object-fit: contain;
+  }
+
+  &__name {
+    font-size: 18px;
+    color: #2F385E;
+    margin: 0 !important;
+    text-transform: uppercase;
+  }
+
+  &__full-name {
+    font-size: 13px;
+    color: #2F385E;
+    opacity: 0.6;
+    margin: 0 !important;
+  }
+}
+
+.actions-slot {
+  margin-left: calc(100% - 36px);
+}
+
+
+.spot-pair-slot {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 8px 0;
+
+  &__btn {
+    margin-right: 9px;
+  }
+
+  &__coin {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #161C2F;
+    margin: 0;
+  }
+
+  &__value {
+    font-size: 13px;
+    letter-spacing: -0.41px;
+    color: #161C2F;
+    opacity: 0.4;
+  }
+}
+
+.spot-price-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 8px 0;
+
+  &__value {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    color: #161C2F;
+    margin: 0;
+  }
+
+  &__percent-change {
+    font-size: 13px;
+    letter-spacing: -0.41px;
+    color: #20C997;
+
+    &--lose {
+      color: #FF6B6B;
+    }
+  }
+}

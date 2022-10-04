@@ -1,0 +1,71 @@
+#top-gainers-slider {
+  .flickity-page-dots {
+    bottom: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flickity-page-dots .dot {
+    width: 20px;
+    height: 5px;
+    background: #CFD5E4;
+    border-radius: 12px;
+    transition: all 0.2s;
+  }
+
+  .flickity-page-dots .dot.is-selected {
+    background: linear-gradient(77.9deg, #0066FF -3.83%, #2CE0C5 110.36%);
+  }
+
+  .flickity-viewport {
+    overflow: visible;
+  }
+}
+
+
+#news-slider {
+  .flickity-page-dots {
+    bottom: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flickity-page-dots .dot {
+    width: 20px;
+    height: 5px;
+    background: #CFD5E4;
+    border-radius: 12px;
+    transition: all 0.2s;
+  }
+
+  .flickity-page-dots .dot.is-selected {
+    background: linear-gradient(77.9deg, #0066FF -3.83%, #2CE0C5 110.36%);
+
+  }
+}
+
+#dashboard-sliders{
+  .flickity-page-dots {
+    bottom: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flickity-page-dots .dot {
+    width: 6px;
+    height: 6px;
+    opacity: 0.4;
+    background: #FFFFFF;
+    transition: all 0.2s;
+    border-radius: 50%;
+  }
+
+  .flickity-page-dots .dot.is-selected {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
+}

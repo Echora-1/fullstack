@@ -1,0 +1,47 @@
+.apexcharts-tooltip.apexcharts-theme-light {
+  border: none !important;
+}
+.apexcharts-legend-text {
+  color: #2F385E99 !important;
+}
+
+foreignObject {
+  overflow: visible;
+}
+
+.apexcharts-svg {
+  overflow: visible;
+}
+
+.x-label {
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(22, 28, 47);
+  font-family: 'Jost', sans-serif;
+  opacity: 0.4 !important;
+}
+
+.arrow_box {
+  position: relative;
+  background: #2f385e;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  border: none;
+  color: #ffffff;
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 !important;
+    color: #ffffff;
+  }
+
+  span {
+    font-size: 13px;
+    line-height: 28px;
+    color: #ffffff;
+    opacity: 0.6;
+  }
+}
